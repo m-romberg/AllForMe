@@ -1,0 +1,95 @@
+/* ------------------------- START OPENING PAGE ------------------------- */
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.wrapper {
+    width: 1170px;
+    margin: auto;
+}
+
+header {
+    background-color: #0B0B45;
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+.welcome-text{
+    position: absolute;
+    width: 700px;
+    height: 300px;
+    margin: 15% 10%;
+    text-align: center;
+    font-family: sans-serif;
+}
+.welcome-text h1, h4, p{
+    text-align: left;
+    line-height: 200%;
+}
+
+.welcome-text #intro-name{
+    color: #CECEDA;
+    font-size: 55px;
+}
+
+.welcome-text h1, p{
+    color: #9D9DB5;
+}
+
+.welcome-text #post-name{
+    font-size: 55px;
+
+}
+
+.welcome-text h4{
+    color: #FF10F0;
+}
+
+nav {
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+
+nav li{
+    display: inline-block;
+}
+
+nav li a{
+    color: #FF10F0;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: sans-serif;
+}
+nav li a:hover{
+    background: #FF10F0;
+    color: #0B0B45;
+}
+
+/* ------------------------- END OPENING PAGE ------------------------- */
+
+
+/* ------------------------- START ABOUT ME PAGE ------------------------- */
+
+.about-me h1{
+    position: absolute;
+    margin: 15% 10%;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+/* format about image */
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+}
+
+/* ------------------------- END ABOUT ME PAGE ------------------------- */
