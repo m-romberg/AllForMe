@@ -53,6 +53,7 @@ nav {
     float: right;
     list-style: none;
     margin-top: 30px;
+
 }
 
 nav li{
@@ -77,19 +78,41 @@ nav li a:hover{
 
 .about-me h1{
     position: absolute;
-    margin: 15% 10%;
+    margin: 2% 10%;
     text-align: center;
     font-family: sans-serif;
+    color: #FF10F0;
 }
 
 /* format about image */
 img {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    height: 50%;
+    float: right;
+    width: 36%;
+    height: 36%;
     border-radius: 50%;
+    margin: 13% 10%;
+
+}
+.wrapper .about-me .about-me-content {
+    position: absolute;
+    width: 495px;
+    height: 700px;
+    margin: 10% 10%;
+    text-align: left;
+    font-family: sans-serif;
+
+}
+
+.wrapper .about-me .about-me-content #about-me-closing {
+    color: #FF10F0;
+    font-weight: bold;
 }
 
 /* ------------------------- END ABOUT ME PAGE ------------------------- */
+
+/* ------------------------- START CONTACT PAGE ------------------------- */
+
+
+
+/* ------------------------- END CONTACT PAGE ------------------------- */
