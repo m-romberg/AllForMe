@@ -111,8 +111,64 @@ img {
 
 /* ------------------------- END ABOUT ME PAGE ------------------------- */
 
-/* ------------------------- START CONTACT PAGE ------------------------- */
+/* ------------------------- START PROJECTS PAGE ------------------------- */
+
+.wrapper .projects-header {
+    position: absolute;
+    margin: 2% 10%;
+    text-align: left;
+    font-family: sans-serif;
+}
+
+.wrapper .projects-header h1 {
+    color: #FF10F0;
+}
+/* ------------------------- END PROJECTS PAGE ------------------------- */
+
+/* ------------------------- START CONTACT ME PAGE ------------------------- */
+
+#contact-me-page {
+    background-color: #0B0B45;
+    height: 50vh;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+.wrapper .contact-me h1 {
+    color:#FF10F0;
+    position: absolute;
+    margin: 2% 10%;
+    font-family: sans-serif;
+}
+
+.wrapper .contact-me ul {
+    float: right;
+    list-style: none;
+    margin-top: 2%;
+}
+
+.wrapper .contact-me li {
+    display: inline-block
+
+}
+
+.wrapper .contact-me .button {
+    border: none;
+    color: #FF10F0;
+    padding: 20px 34px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+}
+.wrapper .contact-me .button:hover{
+    background: #FF10F0;
+    color: #0B0B45;
+}
 
 
 
-/* ------------------------- END CONTACT PAGE ------------------------- */
+/* ------------------------- END CONTACT ME PAGE ------------------------- */
