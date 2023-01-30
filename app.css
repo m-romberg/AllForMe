@@ -26,7 +26,7 @@ header {
     text-align: center;
     font-family: sans-serif;
 }
-.welcome-text h1, h4, p{
+.welcome-text h1, h4, p, a{
     text-align: left;
     line-height: 200%;
 }
@@ -49,6 +49,18 @@ header {
     color: #FF10F0;
 }
 
+.welcome-text a {
+    color: #CECEDA;
+    border: 2px solid black;
+    border-color: #CECEDA;
+    border-radius: 15px;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: sans-serif;
+    float: left;
+
+}
+
 nav {
     float: right;
     list-style: none;
@@ -61,7 +73,10 @@ nav li{
 }
 
 nav li a{
+    border: 2px solid black;
+    border-color: #FF10F0;
     color: #FF10F0;
+    border-radius: 15px;
     text-decoration: none;
     padding: 5px 20px;
     font-family: sans-serif;
@@ -72,6 +87,8 @@ nav li a:hover{
 }
 
 /* ------------------------- END OPENING PAGE ------------------------- */
+
+
 
 
 /* ------------------------- START ABOUT ME PAGE ------------------------- */
@@ -114,9 +131,9 @@ img {
 /* ------------------------- START PROJECTS PAGE ------------------------- */
 
 .wrapper .projects-header {
-    position: absolute;
+    float: right;
     margin: 2% 10%;
-    text-align: left;
+    text-align: right;
     font-family: sans-serif;
 }
 
@@ -127,24 +144,27 @@ img {
 
 /* ------------------------- START CONTACT ME PAGE ------------------------- */
 
-#contact-me-page {
-    background-color: #0B0B45;
-    height: 50vh;
-    background-size: cover;
-    background-position: center center;
-    position: relative;
-}
-.wrapper .contact-me h1 {
-    color:#FF10F0;
+.wrapper .contact-me{
     position: absolute;
-    margin: 2% 10%;
+    width: 800px;
+    height: 300px;
+    margin: 15% 10%;
+    text-align: center;
+    font-family: sans-serif;
+    line-height: 200%;
+}
+
+#lets-connect {
+    color:#CECEDA;
+    /* position: absolute; */
+    /* margin: 2% 10%; */
     font-family: sans-serif;
 }
 
 .wrapper .contact-me ul {
-    float: right;
+    /* float: right; */
     list-style: none;
-    margin-top: 2%;
+    /* margin-top: 2%; */
 }
 
 .wrapper .contact-me li {
@@ -153,8 +173,10 @@ img {
 }
 
 .wrapper .contact-me .button {
-    border: none;
-    color: #FF10F0;
+    border: 2px solid black;
+    border-color: #FF10F0;
+    border-radius: 15px;
+    color: #FF10F0 ;
     padding: 20px 34px;
     text-align: center;
     text-decoration: none;
@@ -169,6 +191,35 @@ img {
     color: #0B0B45;
 }
 
+.wrapper .contact-me .button #github {
+    background-image: url("imgs/github-logo.png");
+}
+
 
 
 /* ------------------------- END CONTACT ME PAGE ------------------------- */
+
+/* ------------------------- START EXTRAS PAGE ------------------------- */
+
+/* email bar */
+#email-float {
+    font-size: 20px;
+    background-color: #0B0B45;
+    position: fixed;
+    bottom: 6em;
+    left: 1em;
+    rotate: -90deg;
+}
+
+#email-float p a{
+    color:#CECEDA;
+    text-decoration: none;
+}
+
+.pink-bold{
+    color: #FF10F0;
+    font-weight: bold;
+}
+
+
+/* ------------------------- END EXTRAS PAGE ------------------------- */
